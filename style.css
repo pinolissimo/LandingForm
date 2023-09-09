@@ -1,0 +1,80 @@
+/* 
+  Giuseppe Allocca
+  CSS #28 Landing-Form
+  Rock{TheCode}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  min-width: 500px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  z-index: 9;
+}
+#bkgimage {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  height: 200%;
+  opacity: 0.4;
+  filter: blur(38px);
+  z-index: -1;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+}
+img {
+  width: 100%;
+}
+header div {
+  width: 150px;
+}
+header > div,
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  width: 100%;
+}
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#about,
+#about p {
+  width: 100%;
+  margin: auto;
+}
+section#about {
+  display: flex;
+  justify-content: flex-start;
+}
+#divabout {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+#formmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #90f8bf;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
